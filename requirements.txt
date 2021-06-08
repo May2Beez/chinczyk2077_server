@@ -1,0 +1,5 @@
+Flask~=1.1.2
+flask_socketio
+gunicorn
+eventlet
+flask_session

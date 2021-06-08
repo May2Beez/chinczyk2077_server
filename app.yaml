@@ -1,0 +1,10 @@
+runtime: python
+env: flex
+
+entrypoint: gunicorn -b :2077 -k eventlet server:app
+
+runtime_config:
+    python_version: 3
+
+network:
+  session_affinity: true
